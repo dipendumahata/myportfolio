@@ -168,8 +168,8 @@ export const SkillsInfo = [
         "A personal portfolio website showcasing my projects, skills, and experience as a passionate and results-driven web developer. Explore my work in frontend and backend development, and get in touch for collaboration or freelance opportunities.",
       image: portfolio,
       tags: ["Tailwind","React JS","HTML", "CSS", "JavaScript"],
-      github: "",
-      webapp: "",
+      github: "https://github.com/dipendumahata/myportfolio",
+      webapp: "https://dipendu-mahata-omega.vercel.app/",
     },
     {
       id: 3,
