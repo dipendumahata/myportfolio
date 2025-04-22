@@ -36,7 +36,7 @@ import csharpLogo from './assets/tech_logo/csharp.png';
 //Educatio  section Logo's
 import jisLogo from './assets/education_logo/JIS_Logo.png';
 import icvpLogo from './assets/education_logo/icvp_logo.png';
-import mhsLogo from './assets/education_logo/MHS_logo.png';
+import mhsLogo from './assets/education_logo/MHS_Logo.png';
 
 // Project Section Logo's
 import letsmeet from './assets/work_logo/Lets_Meet.png';
