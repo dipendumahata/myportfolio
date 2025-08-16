@@ -33,6 +33,8 @@ import icvpLogo from './assets/education_logo/icvp_logo.png';
 import mhsLogo from './assets/education_logo/MHS_Logo.png';
 
 // Project Section Logo's
+import codexa from './assets/work_logo/codexa.png';
+import venturevault from './assets/work_logo/venturevault.png';
 import letsmeet from './assets/work_logo/Lets_Meet.png';
 import portfolio from './assets/work_logo/Portfolio.png';
 import quickride from './assets/work_logo/Quick_Ride.png';
@@ -132,6 +134,26 @@ export const SkillsInfo = [
 
   export const projects = [
     { id: 0,
+      title: "VentureVault  - Indian Startup Funding Platform",
+      description:
+        "VenturVault is a MERN-stack platform that connects Indian startups with investors and mentors by providing a secure, real-time ecosystem for fundraising and guidance.",
+      image: venturevault,
+      tags: ["JavaScript","Socket IO" ,"React JS", "API", "Node JS", "Express JS", "MongoDB", "HTML", "CSS"],
+      github: "https://github.com/dipendumahata/VENTURVAULT",
+      webapp: "https://venturvault.vercel.app/",
+      
+    },
+    { id: 1,
+      title: "Codexa – Student Project Showcase SaaS",
+      description:
+        "Codexa is a full-stack MERN SaaS platform designed for students to showcase their technical projects. It supports image uploads via Cloudinary, real-time feedback and interactions, and provides a dynamic dashboard for managing project portfolios end-to-end.",
+      image: codexa,
+      tags: ["JavaScript","Cloudinary", "React JS", "API", "Node JS", "Express JS", "MongoDB", "HTML", "CSS"],
+      github: "https://github.com/dipendumahata/codexa",
+      webapp: "https://codexa-rho.vercel.app/",
+      
+    },
+    { id: 2,
       title: "Quick Ride - Fast, Reliable Rides at Your Fingertips",
       description:
         "Quick Ride is a web-based ride-hailing application inspired by Uber, designed to connect riders with nearby drivers for seamless transportation. The platform aims to offer real-time ride requests, fare estimations, and route tracking, ensuring a user-friendly experience for both passengers and drivers.",
@@ -142,7 +164,7 @@ export const SkillsInfo = [
       
     },
     {
-      id: 1,
+      id: 3,
       title: "Let's Meet - A Minimal Real-Time Video Chat Web App",
       description:
         "LetsMeet is a web-based application designed to facilitate seamless group video conferencing. Built with modern web technologies, it offers users the ability to connect and communicate through high-quality video calls directly from their browsers.​",
@@ -151,7 +173,7 @@ export const SkillsInfo = [
       github: "https://github.com/dipendumahata/lets-meet",
       webapp: "https://lets-meet-navy.vercel.app/",
     },
-    { id: 2,
+    { id: 4,
       title: "Portfolio Website", 
       description:
         "A personal portfolio website showcasing my projects, skills, and experience as a passionate and results-driven web developer. Explore my work in frontend and backend development, and get in touch for collaboration or freelance opportunities.",
@@ -161,7 +183,7 @@ export const SkillsInfo = [
       webapp: "https://dipendu-mahata-omega.vercel.app/",
     },
     {
-      id: 3,
+      id: 5,
       title: "Shortest Path Finder – Interactive Pathfinding Visualizer",
       description:
         "Shortest Path Finder is an interactive web application that visualizes pathfinding algorithms on a grid-based interface. Users can set start and end points, place obstacles, and observe how the algorithm computes the shortest path in real-time.​",
